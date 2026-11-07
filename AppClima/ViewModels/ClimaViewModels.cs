@@ -17,5 +17,13 @@ namespace AppClima.ViewModels
         private DateTime atualizado;
         [ObservableProperty]
         private List<Clima> clima;
+        public ClimaViewModels() 
+        {
+            cidade = "Guarulhos";
+        }
+        public void getPrevisao()
+        {
+            cidade = "São Paulo";
+        }
     }
 }

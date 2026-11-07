@@ -10,6 +10,8 @@
             x:Name="CondicaoImage" />
         <Label x:Name="CondicaoLabel"
                Text="Chovendo Muito"/>
+        <Label x:Name="CidadeLabel"
+               Text="{Binding Cidade}"/>
         <HorizontalStackLayout>
             <Label Text="Minima"/>
             <Label Text="0"
